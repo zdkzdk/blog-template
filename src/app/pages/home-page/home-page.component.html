@@ -1,0 +1,82 @@
+<!--
+上面是描述列表
+下面是推荐文章，使用card展示
+-->
+
+
+<!--<app-carousel>
+
+</app-carousel>-->
+
+<!--carousel-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height: 150px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" style="display: flex;justify-content: center;flex-wrap: nowrap;height: 140px;">
+    <div class="item active">
+      <h1>WELCOME TO ZDK'Blog!</h1>
+      <div class="carousel-caption">
+        与人为善
+      </div>
+    </div>
+    <div class="item">
+      <h1>WELCOME TO My Blog!</h1>
+      <div class="carousel-caption">
+        教学相长
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button"
+     data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button"
+     data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--carousel ended-->
+<!--carousel结束-->
+
+
+<nz-descriptions nzTitle="与人为善&&教学相长" nzColon="false">
+  <nz-descriptions-item>
+    与人为善&&教学相长
+  </nz-descriptions-item>
+</nz-descriptions>
+
+<nz-descriptions nzTitle="为了提高英语水平" nzColon="false">
+  <nz-descriptions-item>
+    blog中能用英语的地方会尽量使用英语，因为平日能练习英语的场景太少了，大家遇到不会的单词，也可以记下来加深印象
+  </nz-descriptions-item>
+</nz-descriptions>
+
+<nz-descriptions nzTitle="沟通交流" nzColon="false">
+  <nz-descriptions-item>
+    绝大多数情况下，多人共同求解的效率大于个人摸索，如果大家有啥问题或者疑问，可以通过留言&nbsp;||&nbsp;email&nbsp;||&nbsp;微信的方式联系我，或许对话提供的灵感就能解决一个疑惑
+  </nz-descriptions-item>
+</nz-descriptions>
+
+<nz-descriptions nzTitle="为什么不用markdown" nzColon="false">
+  <nz-descriptions-item>
+      虽然md有现成的解决方案，但实在接受不了md的手动标题系统，对表格、图片极其的不友好。
+    个人觉得md适合写普通的非技术文章，适合移动端。
+    但如果写严肃的、结构严谨复杂的技术文章甚至是学术论文，word完善的生态系统，对文字处理市场的垄断，口碑，强大的功能都完爆md。
+  </nz-descriptions-item>
+</nz-descriptions>
+
+<a nz-button #jumpToArListButton
+  nzType="danger" nzSize="large" style="margin-left: 40%" (click)="changeToArtiList()"
+>直接进入文章列表</a>
+
+
+

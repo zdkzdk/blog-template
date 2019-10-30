@@ -1,0 +1,40 @@
+<nz-comment [nzAuthor]="" [nzDatetime]="" *ngFor="let article of articles">
+  <nz-avatar
+    nz-comment-avatar
+    nzIcon="user"
+    nzSrc="../../../assets/images/dc_logo.jpg"
+  ></nz-avatar>
+  <nz-comment-content>
+    <p>
+      {{article.overview}}
+    </p>
+  </nz-comment-content>
+  <nz-comment-action>
+    <i
+      nz-tooltip
+      nzTitle="Like"
+      nz-icon
+      nzType="like"
+      [theme]="likes > 0 ? 'twotone' : 'outline'"
+      (click)="like()"
+    ></i>
+    <span class="count like">{{ likes }}</span>
+  </nz-comment-action>
+  <nz-comment-action>
+    <i
+      nz-tooltip
+      nzTitle="Dislike"
+      nz-icon
+      nzType="dislike"
+      [theme]="dislikes > 0 ? 'twotone' : 'outline'"
+      (click)="dislike()"
+    ></i>
+    <span class="count dislike">{{ dislikes }}</span>
+  </nz-comment-action>
+  <nz-comment-action>Reply to</nz-comment-action>
+  <nz-comment-action>
+    <b nz-button nzType="link"
+      (click)="viewDetail(article.id)"
+    >View Details</b>
+    </nz-comment-action>
+</nz-comment>
