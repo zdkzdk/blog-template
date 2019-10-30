@@ -1,27 +1,27 @@
-# Myblog
+# blog-template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
+##1.	overview
+![Image text]()
+##2	需求分析
+###1	左边侧边栏显示作者基本信息
+###2	搜索栏
+###3	导航栏
+###4	home
+####	轮播图，跳转按钮，博客价值观
+###5	文章列表
+####	可评论，可点赞
+###6	文章详情
+####	word转html，树形锚点链接，评论，点赞，踩
+#2.	技术选型
+![Image text]()
+###1	此博客使用angular8 + java编写。
+###2	es6、typescript的特性，比如箭头函数、接口、类，模块
+#3.	布局、创建组件
+#4. 编写代码
+#5. 运行
+### 根目录下 ng serve ，然后打开local host：4200
+#6. 部署
+### ng build ,在根目录下dist文件夹
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
