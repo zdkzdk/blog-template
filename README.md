@@ -1,7 +1,8 @@
 # blog-template
-
 ##  1.	overview
-![Image text]()
+![Image text](https://github.com/zdkzdk/blog-template/blob/master/images/1.png)
+![Image text](https://github.com/zdkzdk/blog-template/blob/master/images/3.png)
+![Image text](https://github.com/zdkzdk/blog-template/blob/master/images/4.png)
 ##  2	需求分析
 ### 1	左边侧边栏显示作者基本信息
 ### 2	搜索栏
@@ -13,7 +14,7 @@
 ### 6	文章详情
 ####	word转html，树形锚点链接，评论，点赞，踩
 #   2.	技术选型
-![Image text]()
+![Image text](https://github.com/zdkzdk/blog-template/blob/master/images/2.png)
 ### 1	此博客使用angular8 + java编写。
 ### 2	es6、typescript的特性，比如箭头函数、接口、类，模块
 #   3.	布局、创建组件
